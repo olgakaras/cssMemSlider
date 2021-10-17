@@ -44,3 +44,46 @@ img {
     border-radius: 20px;
 }
 
+.container-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+
+    margin-top: 1%;
+    transition: 0.3s ease, linear;;
+}
+
+.text {
+    width: 100%;
+    overflow: hidden;
+}
+
+.titles {
+    display: flex;
+    width: 400%;
+    height: 100%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 25%;
+    transition: 0.3s ease, color 0.2s linear;;
+    word-break: normal; 
+    line-break: normal;
+}
+
+.title-castle {
+    color: rgb(228, 228, 228);
+    font-size: 1.3rem;
+    width: 50%;
+    margin: auto;
+}
+
+.blue{
+    color: rgba(62, 171, 243, 0.849);
+    font-size: 1.7rem;
+    width: 50%;
+}
+
